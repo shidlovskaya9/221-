@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+    
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: .6s;
+          transition-duration: .6s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Merriweatehr, serif;
+  font-size: 18px;
+    background-color: #f7dfe2;
+}
+
+main {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+#clock{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+input{
+    
+    height: 50px;
+    background-color: #6b1b20;
+    color: #fff;
+    font-size: 22px;
+}
+
+
+.text_center {
+  text-align: center;
+}
+.rpos {
+  position: relative;
+}
+.apos {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.header_row {
+  background-color: hsla(0, 0%, 100%, 0.5);
+  padding-left: 1em;
+  font-size: 150%;
+}
+.lead {
+  font-weight: 300;
+  font-size: 16px;
+}
+.row {
+  padding: 1em;
+  clear: both;
+  overflow: auto;
+}
+.inner_row {
+  clear: both;
+  overflow: auto;
+}
+
+
+
+h1 {
+  color: #6b1b20;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #6b1b20;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+blockquote {
+  color: #a3373f;
+  font-size: 1.4em;
+  padding-left: 1em;
+  border-left: 5px solid #a3373f;
+}
+
+header {
+  background: url(fon.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 480px;
+}
+
+#clock{
+    color: #0071D0;
+ font-weight: bold;
+  font-size: 20px;
+} 
+
+.header_title {
+  margin: 0 0 0.4em;
+  font-size: 39px;
+}
+footer {
+  background-color: #6b1b20;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
+
+
+@media screen and (min-width: 500px) {
+  .lead {
+    font-size: 21px;
+  }
+  .header_title {
+    font-size: 51px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .lead {
+    font-size: 30px;
+  }
+  .header_title {
+    font-size: 73px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .left_col {
+    float: left;
+    width: 30%;
+    max-width: 250px;
+  }
+  .content_col {
+    float: left;
+    width: 70%;
+    max-width: 1000px;
+  }
+  blockquote {
+    margin-left: 0;
+  }
+
+  .inner_row {
+    margin-bottom: 1em;
+  }
+
+  .inner_row .content_col {
+    padding-left: 1em;
+  }
+  .inner_row h3 {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .inner_row_img {
+    float: left;
+    width: 48%;
+    margin: 1%;
+  }
+  .inner_row_img:nth-of-type(odd) {
+    margin-left: 0;
+  }
+}
